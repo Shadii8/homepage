@@ -4,7 +4,7 @@
 
 ## Demo
 
-[Check the website](https://github.com/Shadii8/homepage)
+[Check the website](https://shadii8.github.io/homepage/)
 
 ## Description
 
