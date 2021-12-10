@@ -9,3 +9,11 @@
 ## Description
 
 My first home page about my hobbies like favorite songs and favorite quote
+
+## TECHNOLOGIES
+
+Technologies
+HTML
+CSS
+JavaScript
+BEM
