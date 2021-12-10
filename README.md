@@ -12,8 +12,7 @@ My first home page about my hobbies like favorite songs and favorite quote
 
 ## TECHNOLOGIES
 
-Technologies
-HTML
-CSS
-JavaScript
-BEM
+1. HTML
+2. CSS
+3. JavaScript
+4. BEM
