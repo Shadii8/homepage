@@ -10,7 +10,7 @@ body {
     color: #EEEEEE;
     background-color: #222831;
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -55,12 +55,12 @@ body {
     text-align: center;
 }
 
-.tableCall--tableHeader {
+.table__cell--header {
     background-color: #00ADB5;
     color: rgb(190, 212, 144);
 }
 
-.table__tableRow:hover {
+.tableRow:hover {
     background: #00ADB5
 }
 

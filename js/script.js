@@ -3,26 +3,22 @@
         console.log("Cześć");
     }
 
-    const OnChangeBackgroundClick = () => {
-        let body = document.querySelector(".body");
-        let themeName = document.querySelector(".js-themeName");
-        body.classList.toggle("body__light");
+    const onChangeBackgroundClick = () => {
+        const body = document.querySelector(".js-body");
+        const nextColorName = document.querySelector(".js-nextColorName")
 
-        if (body.classList.contains("body__light")) {
-            themeName.innerText = "Włącz ciemne tło";
-        } else {
-            themeName.innerText = "Włącz jasne tło";
-        }
+        body.classList.toggle("body__light");
+        nextColorName.innerText = body.classList.contains("body__light") ? "ciemne" : "jasne";
     }
     const init = () => {
         let button = document.querySelector(".js-button");
-       
 
-        button.addEventListener("click", OnChangeBackgroundClick);
+
+        button.addEventListener("click", onChangeBackgroundClick);
 
         welcome();
-};
-  
-init();
+    };
+
+    init();
 
 }
